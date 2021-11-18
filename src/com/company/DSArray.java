@@ -14,9 +14,11 @@ public class DSArray {
 
         for(int y=0; y < board.length; y++){
             isWhite = !isWhite;
-            System.out.println(board[y].length);
+//            System.out.println(board[y].length);
 
 //          The below for loop will be iterating through the individual elements of rows.
+//            row y
+//            column x
             for (int x = 0; x < board[y].length ; x++) {
                 if (isWhite) board[y][x] = 'W';
                 if (!isWhite) board[y][x] = 'B';
